@@ -1,0 +1,18 @@
+name: bubblecash
+description: Jeu de bulles rémunéré
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_mobile_ads: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ocean_background.png
